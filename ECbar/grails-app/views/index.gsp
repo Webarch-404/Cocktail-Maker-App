@@ -1,122 +1,139 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta name="layout" content="main"/>
-		<title>Welcome to Grails</title>
-		<style type="text/css" media="screen">
-			#status {
-				background-color: #eee;
-				border: .2em solid #fff;
-				margin: 2em 2em 1em;
-				padding: 1em;
-				width: 12em;
-				float: left;
-				-moz-box-shadow: 0px 0px 1.25em #ccc;
-				-webkit-box-shadow: 0px 0px 1.25em #ccc;
-				box-shadow: 0px 0px 1.25em #ccc;
-				-moz-border-radius: 0.6em;
-				-webkit-border-radius: 0.6em;
-				border-radius: 0.6em;
-			}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
-			.ie6 #status {
-				display: inline; /* float double margin fix http://www.positioniseverything.net/explorer/doubled-margin.html */
-			}
 
-			#status ul {
-				font-size: 0.9em;
-				list-style-type: none;
-				margin-bottom: 0.6em;
-				padding: 0;
-			}
 
-			#status li {
-				line-height: 1.3;
-			}
+<html xmlns="http://www.w3.org/1999/xhtml">
 
-			#status h1 {
-				text-transform: uppercase;
-				font-size: 1.1em;
-				margin: 0 0 0.3em;
-			}
+<head>
 
-			#page-body {
-				margin: 2em 1em 1.25em 18em;
-			}
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-			h2 {
-				margin-top: 1em;
-				margin-bottom: 0.3em;
-				font-size: 1em;
-			}
+<title>EC Bar</title>
 
-			p {
-				line-height: 1.5;
-				margin: 0.25em 0;
-			}
+<meta name="keywords" content="Alcohol, drinks, mixer, garnish, Cocktail" />
 
-			#controller-list ul {
-				list-style-position: inside;
-			}
+<meta name="description" content="Free and easy way to design cocktails to suit you!" />
 
-			#controller-list li {
-				line-height: 1.3;
-				list-style-position: inside;
-				margin: 0.25em 0;
-			}
+<link rel="stylesheet" href="${resource(dir: 'css', file: 'main.css')}" type="text/css">
 
-			@media screen and (max-width: 480px) {
-				#status {
-					display: none;
-				}
 
-				#page-body {
-					margin: 0 1em 1em;
-				}
+</head>
 
-				#page-body h1 {
-					margin-top: 0;
-				}
-			}
-		</style>
-	</head>
-	<body>
-		<a href="#page-body" class="skip"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
-		<div id="status" role="complementary">
-			<h1>Application Status</h1>
-			<ul>
-				<li>App version: <g:meta name="app.version"/></li>
-				<li>Grails version: <g:meta name="app.grails.version"/></li>
-				<li>Groovy version: ${GroovySystem.getVersion()}</li>
-				<li>JVM version: ${System.getProperty('java.version')}</li>
-				<li>Reloading active: ${grails.util.Environment.reloadingAgentEnabled}</li>
-				<li>Controllers: ${grailsApplication.controllerClasses.size()}</li>
-				<li>Domains: ${grailsApplication.domainClasses.size()}</li>
-				<li>Services: ${grailsApplication.serviceClasses.size()}</li>
-				<li>Tag Libraries: ${grailsApplication.tagLibClasses.size()}</li>
-			</ul>
-			<h1>Installed Plugins</h1>
-			<ul>
-				<g:each var="plugin" in="${applicationContext.getBean('pluginManager').allPlugins}">
-					<li>${plugin.name} - ${plugin.version}</li>
-				</g:each>
-			</ul>
-		</div>
-		<div id="page-body" role="main">
-			<h1>Welcome to Grails</h1>
-			<p>Congratulations, you have successfully started your first Grails application! At the moment
-			   this is the default page, feel free to modify it to either redirect to a controller or display whatever
-			   content you may choose. Below is a list of controllers that are currently deployed in this application,
-			   click on each to execute its default action:</p>
+<body>
+	<div id="templatemo_background_section_top">
+    
+    	<div class="templatemo_container">
+		
+        	<div id="templatemo_header">
+				<div id="templatemo_logo_section">            
+		        	<h1>EC bar</h1>            
+					<h2>Free and easy cocktail making instructions </h2>
+				</div>
+                <div id="templatemo_search_box">
+			<h2>Search drinks</h2>
+	                <form action="#" method="post">
+    	            	<input name="search" type="text" id="textfield" value=""/>
+        	            <input type="submit" name="Search" value="" alt="Search" id="button" title="Search" />
+					</form>
+                </div>
+         	</div><!-- end of headder -->
+                
+    		<div id="templatemo_menu_panel">
+            
+    			<div id="templatemo_menu_section">
+                
+            		<ul>
+		                <li><a href="index.html"  class="current">Home</a></li>
+        		        <li><a href="#">Drinks</a></li>
+		                <li><a href="#">Forum</a></li>
+		                                 
+		            </ul> 
+                    
+				</div>
+                
+		    </div> <!-- end of menu -->
+            
+		</div><!-- end of container-->
+        
+	</div><!-- end of templatemo_background_section_top-->
+    
+    <div id="templatemo_background_section_middle">
+    
+    	<div class="templatemo_container">
+        
+        	<div id="templatemo_left_section">
+            	
+                <div class="templatemo_post">
+                
+                	<div class="templatemo_post_top">
+                    	<h1>Blog Post Title 1 goes here</h1>
+                    </div>
+                    <div class="templatemo_post_mid">
+                    	                        
+                        <p><img alt="Blog" src="images/templatemo_055_blog.jpg" />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec dui. Donec nec neque ut quam sodales feugiat. Nam vehicula dapibus lectus. Integer imperdiet pretium dolor. Vivamus felis. Vivamus vulputate vehicula mi. Maecenas consectetur purus. </p>
 
-			<div id="controller-list" role="navigation">
-				<h2>Available Controllers:</h2>
-				<ul>
-					<g:each var="c" in="${grailsApplication.controllerClasses.sort { it.fullName } }">
-						<li class="controller"><g:link controller="${c.logicalPropertyName}">${c.fullName}</g:link></li>
-					</g:each>
-				</ul>
-			</div>
-		</div>
-	</body>
+						<p>Vestibulum id mi vitae nunc vulputate ullamcorper. Donec feugiat orci sed sapien. Fusce risus sem, egestas quis, imperdiet id, pellentesque vel, tortor. Fusce ante. Nunc at mi nec urna mollis ullamcorper. Nam aliquet, ligula in aliquet molestie, nunc arcu tristique nibh. </p>
+                        
+                                       
+                <div class="templatemo_post">
+                
+                	<div class="templatemo_post_top">
+                    	<h1>Blog Post Title 2 goes here</h1>
+                    </div>
+                    <div class="templatemo_post_mid">
+                    	
+                        <p><img alt="Blog" src="images/templatemo_062_white.jpg" />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec dui. Donec nec neque ut quam sodales feugiat. Nam vehicula dapibus lectus. Integer imperdiet pretium dolor. Vivamus felis. Vivamus vulputate vehicula mi. Maecenas consectetur purus. </p>
+
+						<p>Vestibulum id mi vitae nunc vulputate ullamcorper. Donec feugiat orci sed sapien. Fusce risus sem, egestas quis, imperdiet id, pellentesque vel, tortor. Fusce ante. Nunc at mi nec urna mollis ullamcorper. Nam aliquet, ligula in aliquet molestie, nunc arcu tristique nibh. </p>
+						
+                                  
+            </div><!-- end of left section-->
+            
+            <div id="templatemo_right_section">
+            	
+                <div class="templatemo_section_box">
+                	<div class="templatemo_section_box_top">
+                    	
+                    </div>
+					
+                  <div class="templatemo_section_box_bottom"></div>
+                </div><!-- end of section box -->
+                
+                <div class="templatemo_section_box">
+                	<div class="templatemo_section_box_top">
+                    	<h1>About This Blog</h1>
+                    </div>
+					<div class="templatemo_section_box_mid">
+                   		
+						<p>This free website blog layout is provided by <a href="http://www.templatemo.com" target="_parent">TemplateMo.com</a>. You may download, modify and apply this layout for any blog CMS websites.</p>
+					</div>
+                    <div class="templatemo_section_box_bottom"></div>
+                </div><!-- end of section box -->
+                
+                <div class="templatemo_section_box">
+                	<div class="templatemo_section_box_top">
+                    
+                    	<h1>Categories</h1>
+                        
+                    </div>
+					<div class="templatemo_section_box_mid">
+                   		
+						<ul>
+                        	<li><a href="#">Alcohol</a></li>
+                            <li><a href="#">Mixer</a></li>
+                            <li><a href="#">Garnishes</a></li>
+                     </ul>
+					</div>
+                    <div class="templatemo_section_box_bottom"></div>
+                </div><!-- end of section box -->
+                
+            
+            </div><!-- end of right Section -->
+            
+              </div>
+            </div>
+           
+        </div>
+
+    </div>
 </html>
