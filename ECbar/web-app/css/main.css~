@@ -353,7 +353,7 @@ span.post{
 }
 
 .templatemo_section_box_mid img{
-	float: right;
+	float: left;
 	display:inline;
 	margin-bottom: 10px;
 	margin-left: 13px;

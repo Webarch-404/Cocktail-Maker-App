@@ -317,7 +317,7 @@ span.post{
 }
 
 * html .templatemo_section_box_top {
-	margin-bottom: -11px;
+	margin-bottom: 11px;
 }
 
 .templatemo_section_box_top h1{
@@ -353,7 +353,7 @@ span.post{
 }
 
 .templatemo_section_box_mid img{
-	float: left;
+	float: right;
 	display:inline;
 	margin-bottom: 10px;
 	margin-left: 13px;
