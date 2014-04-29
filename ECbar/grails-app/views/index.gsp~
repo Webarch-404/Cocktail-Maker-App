@@ -43,10 +43,10 @@
     			<div id="templatemo_menu_section">
                 
             		<ul>
-		                <li><a href="index.html"  class="current">Home</a></li>
-        		        <li><a href="#">Drinks</a></li>
-		                <li><a href="#">Forum</a></li>
-		                <li><a href="#">A-Z</a></li>
+		                <li><a href="index"  class="index">Home</a></li>
+        		        <li><a href="drinks" class="drinks">Drinks</a></li>
+		                <li><a href="forum" class="forum">Forum</a></li>
+		                <li><a href="A-Z"  class="AZ">A-Z</a></li>
                  
 		            </ul> 
                     

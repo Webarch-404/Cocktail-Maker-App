@@ -1,6 +1,6 @@
 package appecbar
 
-class GarnishController {
+class AZController {
 
     def index() { }
 }

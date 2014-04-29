@@ -1,6 +1,6 @@
 package appecbar
 
-class MixerController {
+class A-ZController {
 
     def index() { }
 }
