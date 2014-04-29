@@ -11,7 +11,7 @@
 
 <meta name="description" content="Free and easy way to design cocktails to suit you!" />
 
-<link rel="stylesheet" href="${resource(dir: 'css', file: 'main.css')}" type="text/css">
+<link rel="stylesheet" href="${resource(dir: 'css', file: 'forum.css')}" type="text/css">
 
 
 </head>
@@ -59,51 +59,35 @@
     
     	<div class="templatemo_container">
         
-        	<div id="templatemo_left_section"  style="border:1px solid white;">
+        	<div id="templatemo_left_section">
             	
                 <div class="templatemo_post">
                 
                 	<div class="templatemo_post_top">
-                    	<h1>Blog Post Title 1 goes here</h1>
+                    	<h1>Forum</h1>
                     </div>
                     <div class="templatemo_post_mid">
                     	                        
-                        <p><img alt="Blog" src="images/Flaming_cocktails.jpg" />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec dui. Donec nec neque ut quam sodales feugiat. Nam vehicula dapibus lectus. Integer imperdiet pretium dolor. Vivamus felis. Vivamus vulputate vehicula mi. Maecenas consectetur purus. </p>
-
-						<p>Vestibulum id mi vitae nunc vulputate ullamcorper. Donec feugiat orci sed sapien. Fusce risus sem, egestas quis, imperdiet id, pellentesque vel, tortor. Fusce ante. Nunc at mi nec urna mollis ullamcorper. Nam aliquet, ligula in aliquet molestie, nunc arcu tristique nibh. </p>
-                        
-                                       
-                <div class="templatemo_post">
-                
-                	<div class="templatemo_post_top">
-                    	<h1>Blog Post Title 2 goes here</h1>
-                    </div>
-                    <div class="templatemo_post_mid">
-                    	                                
-                        <p><img alt="Drinks" src="images/templatemo_062_white.jpg" />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec dui. Donec nec neque ut quam sodales feugiat. Nam vehicula dapibus lectus. Integer imperdiet pretium dolor. Vivamus felis. Vivamus vulputate vehicula mi. Maecenas consectetur purus. </p>
-
-						<p>Vestibulum id mi vitae nunc vulputate ullamcorper. Donec feugiat orci sed sapien. Fusce risus sem, egestas quis, imperdiet id, pellentesque vel, tortor. Fusce ante. Nunc at mi nec urna mollis ullamcorper. Nam aliquet, ligula in aliquet molestie, nunc arcu tristique nibh. </p>
-						
+                   
                                   
             </div><!-- end of left section-->
 
             
            
                 
-               
+                <a id="nabblelink" href="http://ecbar.29474.n7.nabble.com/">ECbar</a>
+<script src="http://ecbar.29474.n7.nabble.com/embed/f1"></script>
                 
                 <div class="templatemo_section_box">
                 	<div class="templatemo_section_box_top">
                     
-                    	<h1>Categories</h1>
+                    	
                         
                     </div>
 					<div class="templatemo_section_box_mid">
                    		
 						<ul>
-                        	<li><a href="#">Alcohol</a></li>
-                            <li><a href="#">Mixer</a></li>
-                            <li><a href="#">Garnishes</a></li>
+                        
                      </ul>
 					</div>
                     <div class="templatemo_section_box_bottom"></div>
@@ -112,35 +96,7 @@
             
             </div><!-- end of right Section -->
             
-              </div>
-            </div>
-           
-        </div>
-
-
- <div id="templatemo_right_section" style="border:1px solid white;">
-            	
-                <div class="templatemo_section_box">
-                	<div class="templatemo_section_box_top">
-                          <h1>Right top</h1>
-                    </div>
-<div class="templatemo_section_box_mid">
-                    	<p>This is text in the right hand panel -- mid section</p>
-</div>
-					
-                  <div class="templatemo_section_box_bottom"></div>
-                </div><!-- end of section box -->
-
-
- <div class="templatemo_section_box">
-                	<div class="templatemo_section_box_top">
-                    	<h1>About This Blog</h1>
-                    </div>
-					<div class="templatemo_section_box_mid">
-                   		
-						<p>This free website blog layout is provided by <a href="http://www.templatemo.com" target="_parent">TemplateMo.com</a>. You may download, modify and apply this layout for any blog CMS websites.</p>
-					</div>
-                    <div class="templatemo_section_box_bottom"></div>
+         
                 </div><!-- end of section box -->
 
 
